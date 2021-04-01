@@ -19,7 +19,7 @@ end
 da = 30;
 edges = 0:da:360;
 %change this again 
-count = histcounts(angle,edges)
+[count, wedges]= histcounts(angle,edges)
 
 figure 
 subplot(121)

@@ -52,7 +52,7 @@ end
 % loop over first l workers now the question is how to add the additional
 % woker to the loop, maybe we can use alternative saying the w_num(i) in
 % widge i, could take turns 1 woker goes first and the next goes to the
-% closest customer and until all the workers in this group exhausted
+% closest cus
 for i = 1:l   
     time = 0;
     pos = worker_pos(:,i);
